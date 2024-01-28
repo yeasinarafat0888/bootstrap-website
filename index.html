@@ -17,7 +17,7 @@
   <script src="https://kit.fontawesome.com/3763358a39.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-lg my-5">
+<body class="mt-5 container-lg">
 
   <!-- Header Html Codes -->
   <header>
@@ -108,7 +108,7 @@
   </header>
 
   <!-- Main Html Codes -->
-  <main>
+  <main class="container-lg">
 
     <!-- Featured Bikes Section -->
     <div class="featured-bikes mt-5 text-start text-md-center">
@@ -129,9 +129,9 @@
     </div>
 
     <!-- latest News Section -->
-    <section class="mt-5">
+    <section class="py-5">
       <div class="latest-news mt-5 fw-bold">
-        <h2 class="text-start text-md-center mb-3">latest News</h2>
+        <h2 class="text-start text-md-center my-5">latest News</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card rounded-4">
@@ -173,9 +173,9 @@
     </section>
 
     <!-- Happy Client Section -->
-    <section>
+    <section class="py-5">
       <div class="happy-client mt-5">
-        <h2 class="text-start text-md-center mt-5 mb-3">Happy <span class="text-primary">Clients says</span></h2>
+        <h2 class="text-start text-md-center my-5">Happy <span class="text-primary">Clients says</span></h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card rounded-4 text-center">
@@ -241,12 +241,12 @@
     </section>
 
     <!-- Questions Section -->
-    <section>
+    <section class="py-5">
       <div class="question text-center my-5">
-        <h2>Frequently Asked Questions</h2>
-        <div class="d-flex gap-5 align-items-center my-5">
+        <h2>Frequently Asked <span class="text-primary">Questions</span></h2>
+        <div class="d-flex flex-column flex-md-row gap-5 align-items-center my-5 ">
           <img class="w-50" src="images/others/faq.png" alt="">
-          <div class="accordion w-50" id="accordionExample">
+          <div class="accordion w-50 " id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -317,11 +317,40 @@
         </div>
       </div>
     </section>
+
   </main>
 
   <!-- Footer Html Codes -->
   <Footer>
+    <section>
+      <div class="footer bg-dark text-light">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-6 py-5">
+            <div class="top d-flex gap-4 my-1 px-3">
+              <p>Download Now</p>
+              <p>License</p>
+            </div>
+            <div class="bottom d-md-flex gap-3 px-3 mx-md-auto">
+              <p>About</p>
+              <p>Features</p>
+              <p>Pricing</p>
+              <p>Careers</p>
+              <p>Help</p>
+              <p>Privacy Policy</p>
+            </div>
+            <p class="my-3 px-3"><small> &copy; 2020 bike. All rights reserved</small></p>
+          </div>
+          <div class="col-12 col-md-6 text-end py-5 position-relative">
+            <p class="me-3">Get the App</p>
+            <div class="images d-flex d-grid d-md-flex flex-column w-25 gap-2 position-absolute top-50 end-0 translate-middle-y p-3">
+              <img src="images/others/ios.png" alt="">
+              <img src="images/others/android.png" alt="">
+            </div>
 
+          </div>
+        </div>
+      </div>
+    </section>
   </Footer>
 
 
